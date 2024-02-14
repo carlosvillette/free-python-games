@@ -3,6 +3,7 @@ runtime: python3
 build:
   commands:
     build:
+      - python -m pip install --user PythonTurtle
       - python -m pip install freegames
 run: 
   command: python -m freegames.snake
