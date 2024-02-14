@@ -1,9 +1,9 @@
 version: 1.0
-runtime: python3 
+runtime: python311 
 build:
   commands:
     build:
-      - pip install --user PythonTurtle
-      - pip install freegames
+      - pip3 install --user PythonTurtle
+      - pip3 install freegames
 run: 
-  command: python src/freegames/tictactoe.py
+  command: python3 src/freegames/tictactoe.py
