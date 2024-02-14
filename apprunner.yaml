@@ -6,4 +6,4 @@ build:
       - pip install --user PythonTurtle
       - pip install freegames
 run: 
-  command: python -m freegames.snake
+  command: python snake.py
