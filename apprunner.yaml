@@ -1,9 +1,9 @@
 version: 1.0
-runtime: python311 
+runtime: python3 
 build:
   commands:
     build:
-      - pip3 install --user PythonTurtle
-      - pip3 install freegames
+      - pip install --user PythonTurtle
+      - pip install freegames
 run: 
-  command: python3 -m freegames.snake
+  command: python -m freegames.snake
