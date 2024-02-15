@@ -12,4 +12,4 @@ run:
     - pip3 install --user PythonTurtle
     - pwd
     - ls
-  command: python3 src/freegames/tictactoe.py
+  command: python3 freegames.tictactoe
