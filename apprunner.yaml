@@ -12,4 +12,5 @@ run:
     - pip3 install --user PythonTurtle
     - pwd
     - ls
+    - pip3 show freegames
   command: python3 freegames.tictactoe
